@@ -1,0 +1,13 @@
+# 旁路由
+sys
+sys AR2
+
+un in en
+
+int g0/0/0
+ ip add 192.168.0.252 24
+ quit
+
+
+# 默认路由
+ip route-static 0.0.0.0 0.0.0.0 192.168.0.253

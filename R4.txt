@@ -1,0 +1,17 @@
+# 公网路由器
+sys
+sys R4
+
+un in en
+
+
+int e0/0/0
+ ip add 64.0.0.2 24
+ quit
+int e0/0/1
+ ip add 8.8.8.1 24
+ quit
+
+
+# no nat
+# no 默认路由

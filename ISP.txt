@@ -1,0 +1,27 @@
+# 旁路由
+sys
+sys ISP
+
+un in en
+
+int g0/0/1
+ ip add 64.0.0.1 24
+ quit
+
+int g0/0/0
+ ip add 100.64.0.1 24
+ quit
+
+
+# easy nat {{{
+acl 2000
+ rule permit
+ quit
+
+int g0/0/1
+ nat outbound 2000
+ quit
+
+# end of easy nat }}}
+# 默认路由
+ip route-static 0.0.0.0 0.0.0.0 64.0.0.2

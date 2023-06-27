@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00">
+    <devices>
+        <dev id="ECA3E058-D15C-4e88-883F-C36223A4C06D" name="ISP" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-B9-16-F3" com_port="2006" bootmode="0" cx="91.000000" cy="192.000000" edit_left="79" edit_top="213">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="4AA81B4B-4ED4-4b21-8E05-AC6DDD3E54D0" name="LSW1" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-9B-2E-53" com_port="2003" bootmode="0" cx="97.000000" cy="536.000000" edit_left="86" edit_top="556">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="09F292E6-68B0-4be7-879E-D58104B2E05B" name="R4" poe="0" model="Router" settings="" system_mac="54-89-98-08-66-68" com_port="2005" bootmode="0" cx="91.000000" cy="48.000000" edit_left="77" edit_top="66">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="4" />
+                <interface sztype="Serial" interfacename="Serial" count="4" />
+            </slot>
+        </dev>
+        <dev id="CC8114BF-3124-4bca-9203-41A150DAF2C8" name="LSW2" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-1E-54-6D" com_port="2007" bootmode="0" cx="586.000000" cy="527.000000" edit_left="613" edit_top="581">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="131A3AA1-F484-4234-A471-AC4FA3F67294" name="LSW3" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-C9-53-AD" com_port="2002" bootmode="0" cx="367.000000" cy="819.000000" edit_left="441" edit_top="840">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="3C892161-F0DA-4cd8-954C-15CC9DBCAF76" name="AR1" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-17-1C-F1" com_port="2000" bootmode="0" cx="94.000000" cy="355.000000" edit_left="75" edit_top="378">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="F3695955-A404-4335-A1C2-48E651AF58CD" name="AR2" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-FC-68-12" com_port="2004" bootmode="0" cx="747.000000" cy="531.000000" edit_left="774" edit_top="585">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="9B55ED58-34F5-416b-B514-D0AC8FC56BA1" name="PC1" poe="0" model="PC" settings=" -simpc_ip 192.168.0.1  -simpc_mask 255.255.255.0  -simpc_gateway 192.168.0.254  -simpc_mac 54-89-98-D7-79-8E  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-D7-79-8E" com_port="0" bootmode="0" cx="101.000000" cy="692.000000" edit_left="128" edit_top="746">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="6C5F0FB8-F27D-4e79-A205-42A1D2B9C16C" name="google" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-64-14-BD -ipaddr 8.8.8.8 -ipmask 255.255.255.0 -gateway 8.8.8.1 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-5C-0B-FE" com_port="0" bootmode="0" cx="609.000000" cy="44.000000" edit_left="685" edit_top="69">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="AECB2B70-CC60-4424-A448-5DD115E00E12" name="AR3" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-6A-27-DF" com_port="2001" bootmode="0" cx="367.000000" cy="678.000000" edit_left="373" edit_top="736">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="D2F65E90-9FBF-4365-9699-EC8943BE6593" name="PC2" poe="0" model="PC" settings=" -simpc_ip 192.168.1.1  -simpc_mask 255.255.255.0  -simpc_gateway 192.168.1.254  -simpc_mac 54-89-98-A9-6C-7A  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-A9-6C-7A" com_port="0" bootmode="0" cx="371.000000" cy="978.000000" edit_left="398" edit_top="1032">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="131A3AA1-F484-4234-A471-AC4FA3F67294" destDeviceID="D2F65E90-9FBF-4365-9699-EC8943BE6593">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="0" srcBoundRect_X="395.086029" srcBoundRect_Y="889.170105" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="396.913971" tarBoundRect_Y="961.829895" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="9B55ED58-34F5-416b-B514-D0AC8FC56BA1" destDeviceID="4AA81B4B-4ED4-4b21-8E05-AC6DDD3E54D0">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="126.893089" srcBoundRect_Y="675.830444" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="1" tarBoundRect_X="125.106911" tarBoundRect_Y="606.169556" tarOffset_X="-82.000000" tarOffset_Y="-10.000000" />
+        </line>
+        <line srcDeviceID="09F292E6-68B0-4be7-879E-D58104B2E05B" destDeviceID="6C5F0FB8-F27D-4e79-A205-42A1D2B9C16C">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="0" srcBoundRect_X="161.182480" srcBoundRect_Y="74.666542" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="592.817505" tarBoundRect_Y="71.333458" tarOffset_X="-63.000000" tarOffset_Y="4.000000" />
+        </line>
+        <line srcDeviceID="4AA81B4B-4ED4-4b21-8E05-AC6DDD3E54D0" destDeviceID="CC8114BF-3124-4bca-9203-41A150DAF2C8">
+            <interfacePair lineName="Copper" srcIndex="3" srcBoundRectIsMoved="1" srcBoundRect_X="167.176453" srcBoundRect_Y="562.205322" srcOffset_X="-4.000000" srcOffset_Y="-13.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="569.823547" tarBoundRect_Y="554.794678" tarOffset_X="-68.000000" tarOffset_Y="-25.000000" />
+        </line>
+        <line srcDeviceID="ECA3E058-D15C-4e88-883F-C36223A4C06D" destDeviceID="3C892161-F0DA-4cd8-954C-15CC9DBCAF76">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="1" srcBoundRect_X="118.794662" srcBoundRect_Y="262.176453" srcOffset_X="-50.000000" srcOffset_Y="-6.000000" tarIndex="1" tarBoundRectIsMoved="0" tarBoundRect_X="120.205338" tarBoundRect_Y="338.823547" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="3C892161-F0DA-4cd8-954C-15CC9DBCAF76" destDeviceID="4AA81B4B-4ED4-4b21-8E05-AC6DDD3E54D0">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="121.715652" srcBoundRect_Y="425.177826" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="123.284348" tarBoundRect_Y="519.822144" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="4AA81B4B-4ED4-4b21-8E05-AC6DDD3E54D0" destDeviceID="AECB2B70-CC60-4424-A448-5DD115E00E12">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="0" srcBoundRect_X="162.220245" srcBoundRect_Y="583.101013" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="355.779755" tarBoundRect_Y="684.898987" tarOffset_X="-38.000000" tarOffset_Y="6.000000" />
+        </line>
+        <line srcDeviceID="AECB2B70-CC60-4424-A448-5DD115E00E12" destDeviceID="131A3AA1-F484-4234-A471-AC4FA3F67294">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="0" srcBoundRect_X="394.000000" srcBoundRect_Y="748.183777" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="394.000000" tarBoundRect_Y="802.816223" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="CC8114BF-3124-4bca-9203-41A150DAF2C8" destDeviceID="F3695955-A404-4335-A1C2-48E651AF58CD">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="656.170471" srcBoundRect_Y="555.072571" srcOffset_X="-19.000000" srcOffset_Y="3.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="730.829529" tarBoundRect_Y="556.927429" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="ECA3E058-D15C-4e88-883F-C36223A4C06D" destDeviceID="09F292E6-68B0-4be7-879E-D58104B2E05B">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="118.000000" srcBoundRect_Y="175.816238" srcOffset_X="-51.000000" srcOffset_Y="-4.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="118.000000" tarBoundRect_Y="118.183769" tarOffset_X="9.000000" tarOffset_Y="-9.000000" />
+        </line>
+    </lines>
+    <shapes>
+        <shape type="1" filloption="0" color="255" upleftcorner="61,373" width="113" height="239" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+        <shape type="1" filloption="0" color="255" upleftcorner="333,670" width="135" height="248" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+        <shape type="1" filloption="0" color="255" upleftcorner="549,501" width="266" height="101" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+    </shapes>
+    <txttips>
+        <txttip left="67" top="761" right="222" bottom="809" content="192.168.0.1/24&#x0D;&#x0A;gw: 192.168.0.253&#x0D;&#x0A;or gw: 192.168.0.254" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="290" top="616" right="415" bottom="648" content="nat?&#x0D;&#x0A;192.168.0.254/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="589" top="100" right="676" bottom="132" content="8.8.8.8/24&#x0D;&#x0A;gw: 8.8.8.1" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="169" top="320" right="271" bottom="368" content="nat&#x0D;&#x0A;PPPoE&#x0D;&#x0A;100.64.0.2/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="126" top="252" right="228" bottom="269" content="100.64.0.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="130" top="147" right="466" bottom="179" content="nat&#x0D;&#x0A;64.0.0.1/24(百度搜索 “IP地址” 显示的公网 IP)" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="28" top="107" right="115" bottom="124" content="64.0.0.2/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="174" top="49" right="253" bottom="66" content="8.8.8.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="130" top="444" right="255" bottom="461" content="192.168.0.253/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="350" top="224" right="1016" bottom="357" content="AR1 主路由，开启 nat，PPPoE 拨号获取 IP（使用静态IP 模拟）&#x0D;&#x0A;AR2 旁路由，使用 LAN 接口与 AR1 相连，默认不开启 NAT，&#x0D;&#x0A;    单网口设备（openwrt 或 linux 系统），默认路由是 R1(192.168.0.253)。&#x0D;&#x0A;AR3 旁路由，使用 WAN 接口与 AR1 相连，默认开启 NAT，&#x0D;&#x0A;    多网口设备，（openwrt 或 linux 系统），默认路由是 R1(192.168.0.253)，&#x0D;&#x0A;    nat 根据需要可以关闭。&#x0D;&#x0A;" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="899" top="711" right="1620" bottom="853" content="PC1 使用 AR2 做为网关与 google 进行通信过程：&#x0D;&#x0A;&#x0D;&#x0A;PC1 &lt;-&gt; google&#x0D;&#x0A;&#x0D;&#x0A;PC1(192.168.0.1) -&gt; AR2 -&gt; AR1(192.168.0.253)，AR1 做NAT(源 IP 从 192.168.0.1 变为 100.64.0.2)&#x0D;&#x0A; -&gt; ISP，ISP 做 NAT(源 IP 从 100.64.0.2 变为 64.0.0.1) -&gt; R4 -&gt; google&#x0D;&#x0A;&#x0D;&#x0A;google(8.8.8.8) -&gt; R4 -&gt; ISP，ISP 做NAT(目的 IP 从 64.0.0.1 变为 100.64.0.2)&#x0D;&#x0A; -&gt; AR1，AR1 做 NAT(目的 IP 从 100.64.0.2 变为 192.168.0.1)" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="447" top="739" right="572" bottom="756" content="192.168.1.254/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="659" top="503" right="784" bottom="535" content="no nat&#x0D;&#x0A;192.168.0.252/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="348" top="1049" right="480" bottom="1081" content="192.168.1.1/24&#x0D;&#x0A;gw: 192.168.1.254" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="534" top="468" right="813" bottom="487" content="连接旁路由的 LAN 接口，不开启 NAT" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="292" top="651" right="587" bottom="670" content="连接旁路由的 WAN 接口，默认开启 NAT" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="58" top="27" right="137" bottom="44" content="公网路由器" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="638" top="908" right="1631" bottom="1050" content="PC1 使用 AR3 做为网关与 google 进行通信过程：&#x0D;&#x0A;&#x0D;&#x0A;PC1 &lt;-&gt; google&#x0D;&#x0A;&#x0D;&#x0A;PC1(192.168.0.1) -&gt; AR3，AR3 做NAT(源 IP 变为 192.168.0.254) -&gt; AR1(192.168.0.253)，AR1 做NAT(源 IP 从 192.168.0.1 变为 100.64.0.2)&#x0D;&#x0A; -&gt; ISP，ISP 做 NAT(源 IP 从 100.64.0.2 变为 64.0.0.1) -&gt; R4 -&gt; google&#x0D;&#x0A;&#x0D;&#x0A;google(8.8.8.8) -&gt; R4 -&gt; ISP，ISP 做NAT(目的 IP 从 64.0.0.1 变为 100.64.0.2)&#x0D;&#x0A; -&gt; AR1，AR1 做 NAT(目的 IP 从 100.64.0.2 变为 192.168.0.254) -&gt; AR3，AR3 做 NAT(目的 IP 从 192.168.0.254 变为 192.168.0.1)" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>

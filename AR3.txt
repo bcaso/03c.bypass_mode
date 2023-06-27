@@ -1,0 +1,28 @@
+# 旁路由
+sys
+sys AR3
+
+un in en
+
+
+int g0/0/0
+ ip add 192.168.0.254 24
+ quit
+int g0/0/1
+ ip add 192.168.1.254 24
+ quit
+
+
+# easy nat {{{
+acl 2000
+ rule permit
+ quit
+
+int g0/0/0
+ nat outbound 2000
+ quit
+
+# end of easy nat }}}
+
+# 默认路由
+ip route-static 0.0.0.0 0.0.0.0 192.168.0.253
